@@ -16,3 +16,7 @@ body {
   gap: 28px;
   height: 100vh;
 }
+
+.main-container {
+  flex-grow: 1
+}
