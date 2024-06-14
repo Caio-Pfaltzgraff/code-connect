@@ -1,6 +1,6 @@
-import { Prompt } from 'next/font/google';
-
 import { Aside } from '@/components/Aside';
+import { Search } from '@/components/Search';
+import { Prompt } from 'next/font/google';
 import './globals.css';
 
 export const metadata = {
@@ -23,6 +23,10 @@ export default function RootLayout({ children }) {
             <Aside />
           </div>
           <div className='main-content'>
+            <div className='search'>
+              <Search />
+              <button>Buscar</button>
+            </div>
             {children}
           </div>
         </div>

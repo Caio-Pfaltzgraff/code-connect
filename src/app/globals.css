@@ -18,7 +18,25 @@ body {
 }
 
 .main-container {
-  flex-grow: 1
+  flex-grow: 1;
+}
+
+.search {
+  width: 100%;
+  display: inline-flex;
+  gap: 8px;
+}
+
+.search button {
+  background: #81FE88;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #132E35;
+  text-align: center;
+  cursor: pointer;
 }
 
 a {

@@ -1,0 +1,31 @@
+.search {
+  width: 896px;
+  display: flex;
+  padding: 8px 16px;
+  background: #171D1F;
+  border-radius: 4px;
+  gap: 16px;
+}
+
+.search img {
+  width: 32px;
+  height: 32px;
+}
+
+.search input {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  color: #BCBCBC;
+  font-size: 22px;
+  line-height: 150%;
+  border: 1px solid transparent;
+}
+
+.search input:focus {
+  border: none;
+}
+
+.focused {
+  border: 1px solid #81FE88;
+}
