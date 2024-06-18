@@ -11,3 +11,5 @@
 {"level":"error","message":"Ops, alguma coisa correu mal"}
 {"level":"error","message":"Ops, alguma coisa correu mal"}
 {"level":"error","message":"Ops, alguma coisa correu mal"}
+{"error":{},"level":"error","message":"Falha ao obter posts"}
+{"error":{},"level":"error","message":"Falha ao obter posts"}
