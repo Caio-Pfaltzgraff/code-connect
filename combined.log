@@ -226,3 +226,8 @@
 {"error":{},"level":"error","message":"Falha ao obter post com o slug:","slug":"vuejs-para-iniciantess"}
 {"error":{"clientVersion":"5.15.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
 {"error":{},"level":"error","message":"Falha ao obter post com o slug:","slug":"vuejs-para-iniciantess"}
+{"error":{"clientVersion":"5.15.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.15.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.15.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.15.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.15.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}

@@ -1,3 +1,8 @@
+import { Heading } from '@/components/Heading'
+import { ArrowBack } from '@/components/icons/ArrowBack'
+import Image from 'next/image'
+import Link from 'next/link'
+import banner from './error/404.png'
 import styles from './error/error.module.css'
 
 export default function NotFound() {
