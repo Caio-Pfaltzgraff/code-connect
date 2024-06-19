@@ -1,5 +1,5 @@
 import { Aside } from '@/components/Aside';
-import { Search } from '@/components/Search';
+import { SearchForm } from '@/components/SearchForm';
 import { Prompt } from 'next/font/google';
 import './globals.css';
 
@@ -9,7 +9,7 @@ export const metadata = {
 };
 
 const prompt = Prompt({
-  weight: ['400', '600'],
+  weight: ['400', '500', '600'],
   subsets: ['latin'],
   display: 'swap',
 });
@@ -23,10 +23,7 @@ export default function RootLayout({ children }) {
             <Aside />
           </div>
           <div className='main-content'>
-            <div className='search'>
-              <Search />
-              <button>Buscar</button>
-            </div>
+            <SearchForm />
             {children}
           </div>
         </div>
